@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the article below."
+title: "Optimal selection of the preserved exponential in Szász–Mirakyan operators: reproducibility code"
+type: software
+authors:
+  - family-names: "Ariza-Ruiz"
+    given-names: "David"
+    affiliation: "Valencian International University (VIU), Valencia, Spain"
+    orcid: "https://orcid.org/0000-0001-8782-7219"
+  - family-names: "Yáñez"
+    given-names: "Dionisio F."
+    affiliation: "Universitat de València, Valencia, Spain"
+license: MIT
+repository-code: "https://github.com/davidarizaruiz-VIU/szasz-mirakyan-parameter-selection"
+preferred-citation:
+  type: article
+  title: "Optimal selection of the preserved exponential in Szász–Mirakyan operators: a leading-term criterion validated at finite n"
+  authors:
+    - family-names: "Ariza-Ruiz"
+      given-names: "David"
+    - family-names: "Yáñez"
+      given-names: "Dionisio F."
+  journal: "Dolomites Research Notes on Approximation"
+  year: 2026
+  notes: "Submitted."
