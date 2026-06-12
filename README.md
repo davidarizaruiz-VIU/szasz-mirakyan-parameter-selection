@@ -2,7 +2,7 @@
 
 Reproducibility code for the manuscript
 
-> **Optimal selection of the preserved exponential in Szász–Mirakyan operators: a leading-term criterion validated at finite *n***
+> **Optimal selection of the preserved exponential in Szász–Mirakyan operators: a leading-term criterion with finite-*n* guarantees**
 > David Ariza-Ruiz (Valencian International University, VIU) and Dionisio F. Yáñez (Universitat de València)
 > Submitted to *Dolomites Research Notes on Approximation* (DRNA).
 
@@ -21,14 +21,20 @@ claim in the paper:
 
 - a closed-form optimal parameter *a*\* and a finite-*n* justification
   *n*² *E*<sub>*n*</sub>(*a*)² = ¼ *J*(*a*) + *O*(1/*n*), hence *a*<sub>*n*</sub>\* → *a*\*;
+- a saturation reading: the trivial class is span{1, *e*<sup>2*ax*</sup>}, so *a*\* minimizes the
+  **saturation constant** (the 1/*n* order itself being classical, Becker 1978; Ditzian–Totik 1987);
 - a **computable a posteriori selector** that recovers *a*\*, its sensitivity and the loss of any
-  admissible parameter from three error evaluations, using no derivative of *f*;
+  admissible parameter from three error evaluations, using no derivative of *f*, and that satisfies
+  an **oracle inequality** (within a factor 1 + *O*(1/*n*²) of the finite-*n* optimum);
 - explicit optima for structured classes (single exponentials, positive mixtures, layers);
 - a **uniform-in-ε relative-error bound** for the perturbed boundary layer (1+*x*)*e*<sup>−*x*/ε</sup>,
-  where the classical operator fails to resolve the layer;
-- a like-for-like comparison with the mixed two-exponential operator of Ulusoy Ada–Aral (2026).
+  extended in closed form (via Touchard polynomials) to any polynomial-modulated layer
+  *g*(*x*)*e*<sup>−*x*/ε</sup>, with the bound holding exactly when *g*(0) ≠ 0;
+- a like-for-like comparison with the mixed two-exponential operator of Ulusoy Ada–Aral (2026),
+  generalized to a **domination** statement over all convex two-exponential mixtures.
 
-The operators and their Voronovskaya-type asymptotics are not new and are cited as such.
+The operators, their Voronovskaya-type asymptotics and the 1/*n* saturation order are not new and
+are cited as such.
 
 ## Repository structure
 
